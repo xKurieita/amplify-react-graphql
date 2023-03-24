@@ -17,6 +17,9 @@
       },
       "auth": {
         "amplifyappf9b07f9b": {}
+      },
+      "storage": {
+        "imageStorage": {}
       }
     }
   }
