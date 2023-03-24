@@ -10,12 +10,12 @@ import {
 
 } from '@aws-amplify/ui-react'
 
-function App({ signOut }) {
+function App({ signOut, user }) {
   return (
     <View className="App">
       <Card>
         <Image src={logo} className='App-logo' alt='logo' />
-        <Heading level={1}>We now have Auth!</Heading>
+        <Heading level={1}>Hello {user.name} </Heading>
       </Card>
       <Button onClick={signOut}>Sign Out</Button>
     </View>

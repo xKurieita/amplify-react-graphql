@@ -5,5 +5,16 @@ export type AmplifyDependentResourcesAttributes = {
       "GraphQLAPIIdOutput": "string",
       "GraphQLAPIKeyOutput": "string"
     }
+  },
+  "auth": {
+    "amplifyappf9b07f9b": {
+      "AppClientID": "string",
+      "AppClientIDWeb": "string",
+      "IdentityPoolId": "string",
+      "IdentityPoolName": "string",
+      "UserPoolArn": "string",
+      "UserPoolId": "string",
+      "UserPoolName": "string"
+    }
   }
 }
